@@ -10,7 +10,7 @@ def mian():
     totalmarks +=marks
   percentange = totalmarks / n
 
-  print("percentange is ", percentange)
+  print("percentange is ", percentange,"%")
 
 if __name__=="__main__":
   mian()
