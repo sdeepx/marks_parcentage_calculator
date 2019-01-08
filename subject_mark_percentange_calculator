@@ -1,0 +1,16 @@
+def mian():
+  n = int(input("Enter your subjects : "))
+  totalmarks = 0
+  print("Enter marks -- ")
+
+  for i in range(1, n+1): 
+    marks = float(input("subject " + str(i) + " : "))
+    assert marks >= 0 and marks <= 100
+
+    totalmarks +=marks
+  percentange = totalmarks / n
+
+  print("percentange is ", percentange)
+
+if __name__=="__main__":
+  mian()
